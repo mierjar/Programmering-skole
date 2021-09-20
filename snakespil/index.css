@@ -1,0 +1,10 @@
+body {
+    text-align:center;
+    font-family: helvetica;
+    background-color:pink;
+  }
+  canvas {
+    border: 2px solid rgb(233, 131, 202);
+  }
+  
+       

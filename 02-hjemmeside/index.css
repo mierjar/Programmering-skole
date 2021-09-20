@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+body{
+background-color: lightpink;
+margin:0;
+height:100vh;
+width:100vw;
+overflow:hidden;
+display:grid;
+place-items:center;
+
+}
+
+p{
+    color:white;
+    font-family:'Open Sans';
+}
+
+h1{ 
+    margin:0;
+    padding:2rem;
+    font-size:4rem;
+    font-family: 'Roboto';
+    color:purple;
+    text-align: center;
+}
+
+
+.boks{
+border:8px solid white;
+width:50vw;
+padding: 20px;
+}

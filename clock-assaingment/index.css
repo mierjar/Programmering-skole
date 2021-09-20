@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Cute fonts;
+}
+body{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    height:100vh;
+    background-color: pink;
+}
+
+
+header{
+background-color:pink;
+}
+
+main{
+    display:grid;
+    place-items:center;
+    background-color: pink;
+    background:linear-gradient(135deg, #8aece3, #eee590, #f180e4);    
+    margin: 5%;
+    
+}
+
+footer{
+background-color: pink;
+}
+
+#ur{
+    display:grid;
+    grid-auto-flow:column;
+    font-size:20vh;
+    place-items:center;
+    color: palevioletred;
+   
+}
+#ur div:nth-of-type(2){
+    margin-bottom: 1rem;
+}
+#ur div:nth-of-type(4){
+    margin-bottom: 1rem;
+}
+#sanrio{
+    height:30vh;
+    width:30vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius:50%;
+    transition: all .3s ease-in-out;
+}
