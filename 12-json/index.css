@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Hina Mincho';
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.card{
+    padding: 2rem;
+    color: white;
+    box-shadow: 8px 8px black;
+    animation: 1s ease-in-out anim;
+}
+
+@keyframes anim{
+    from{
+        transform: translateX(200px);
+    }  
+    to{
+        transform:translateX(0px);
+    }
+}

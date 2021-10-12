@@ -42,3 +42,12 @@ input{
     transform:scale(1.2);
     border: 4px, solid white;
 }
+
+@keyframes anim{
+    from{
+        transform: translateX(200px);
+    }  
+    to{
+        transform:translateX(0px);
+    }
+}
