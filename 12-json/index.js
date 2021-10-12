@@ -3,7 +3,7 @@ let person = {
     id: '12345',
     name: 'simon',
     age: 46,
-    hobbies: ['guitar ', 'code ', 'soccer '],
+    hobbies: ['guitar', ' code', ' soccer'],
     favoriteColor: 'hotpink'
 }
 
@@ -16,31 +16,31 @@ let people = [person, {
     id: '12245',
     name: 'sofus',
     age: 18,
-    hobbies: ['dancing ', 'code ', 'shoes '],
+    hobbies: ['dancing', ' code', ' shoes'],
     favoriteColor: 'green'
 },{
     id: '12334',
     name: 'marius',
     age: 17,
-    hobbies: ['cubing ', 'code ', 'soccer '],
+    hobbies: ['cubing', ' code', ' soccer'],
     favoriteColor: 'blue'
 },{
     id: '11111',
     name: 'bjarke',
     age: 18,
-    hobbies: ['siri ', 'code ', 'sport '],
+    hobbies: ['siri', ' code', ' sport'],
     favoriteColor: 'purple'
 },{
     id: '11235',
     name: 'viktor',
     age: 18,
-    hobbies: ['theis ', 'code ', 'soccer '],
+    hobbies: [' theis', ' code', ' soccer'],
     favoriteColor: 'darkblue'
 },{
     id: '8410',
     name: 'theis',
     age: 12,
-    hobbies: ['glasses ', 'code ', 'small '],
+    hobbies: ['glasses', ' code', ' small'],
     favoriteColor: 'grey'
 }
 
