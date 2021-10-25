@@ -1,0 +1,41 @@
+<html>
+<body>
+    <h1>valutaomregner</h1>
+    <P> hvormange euro:</P>
+    <br>
+    <input id="euro"/>
+    <br>
+    <button onclick="
+    var e = document.getElementById('euro').value;
+    var d = 7.5 * e;
+    alert(d + ' dkk')">
+    til dkk!
+</button>
+    <br>
+    <h1>temperaturer</h1>
+    <P> grader:</P>
+    <br>
+    <input id="celsius"/>
+    <br>
+    <button onclick="
+    var e = document.getElementById('celsius').value;
+    var d = 1.8 * e + 32;
+    alert(d + ' f')">
+    til fahrenheit
+</button>
+    <h1>bmi omregner</h1>
+    <P> bmi:</P>
+    <br>
+    <input id="weight" value="weight"/>
+    <input id= "height" value="height"/>
+    <br>
+    <button onclick="
+    var w = document.getElementById('weight').value;
+    var h = document.getElementById('height').value;
+    var b = w/(h*h) ;
+    alert(b + ' bmi')">
+    bmi
+</button>
+
+</body>
+</html>

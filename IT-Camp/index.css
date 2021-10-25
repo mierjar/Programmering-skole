@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Hina Mincho';
+}
+
+body{
+background-color: lightpink;
+margin:0;
+height:100vh;
+width:100vw;
+overflow:hidden;
+display:grid;
+place-items:center;
+
+}
+
+p{
+    color:white;
+    font-family:'Open Sans';
+}
+
+h1{ 
+    margin:0;
+    padding:2rem;
+    font-size:4rem;
+    font-family: 'Roboto';
+    color:purple;
+    text-align: center;
+}
+input{
+    width:8vw;
+    height: 4vh;
+    font-size: 1rem;
+    border-radius: 4rem;
+    outline:none;
+    padding: 1rem;
+    border: 1px solid white;
+    background-color: lightpink;
+}
+
+button{
+    background-color: lightpink;
+    outline: none;
+    border: 1px solid white;
+}
+
+
+.boks{
+border:8px solid white;
+width:50vw;
+padding: 20px;
+}
+
+header{
+
+}
+
+main{
+
+}
+
+footer{
+
+}
+.card{
+    height:5rem;
+    width:100%;
+    background: radial-gradient(lightgray, hotpink);
+    border-radius: 1rem;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 1,2rem;
+    box-shadow: 10px 10px 10px 2px darkgrey;
+    margin: 1rem;
+}
+.card:hover{
+    transform:scale(1.2);
+    border: 4px, solid white;
+}
+
+
+@keyframes anim{
+      from{
+          transform: translateX(200px);
+      }  
+      to{
+          transform:translateX(0px);
+      }
+}
