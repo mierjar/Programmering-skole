@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Hina Mincho';
+}
+
+body{
+    background: lightpink;
+    
+}
+
+header{
+    display: grid;
+    place-items: center;
+    height: 10vh;
+    background-color: lightblue;
+    color: white;
+    text-shadow: 0 0 12px white;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: grid;
+    place-items: center;
+    height: 80vh;
+}
+
+#activity{
+    width: 80vw;
+    height: 60vh;
+    border: 1px solid white;
+    background: lightgrey;
+    border-radius: 1rem;
+    box-shadow: 0 0 12px 6px gray;
+    padding: 4rem;
+}
+button{
+    color: white;
+}
+
+footer{
+height: 8vh;
+display: grid;
+place-items: center;
+}
