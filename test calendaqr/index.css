@@ -16,10 +16,7 @@
     width: 10rem;
     height: 2rem;
 }
-img{
-    width: 75px;
-    height: 75px;
-}
+
 
 .container{
     width: 800px;
@@ -27,9 +24,32 @@ img{
     border: 5px solid black;
     margin: 15px auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
+    background-image: url("./assets/cover\ pic.jpg");
+    background-size: cover;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(6, 1fr);
     place-items: center;
+    grid-template-areas: 
+    "door7 door19 door17 door11" 
+    "door8 door3 door4 door14"
+    "door23 door5 door18 door20"
+    "door15 door2 door13 door6"
+    "door22 door10 door12 door9" 
+    "door21 door16 door1 door24";
+}
+
+.image{
+    background-image: url(./assets/marceline.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.text{
+    height: 150px;
+    width: 150px;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
 }
 
 body{
