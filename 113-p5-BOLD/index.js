@@ -4,7 +4,7 @@ let friction = 0.97
 let velocity = 0
 let updrift = 25
 let rectX, rectY, rectW, rectH
-let rectSpeed = 5
+let rectSpeed = 12
 let score = 0
 
 function showRect() {
@@ -16,7 +16,7 @@ function updateRect() {
     rectX -= rectSpeed
     if (rectX <=0){
         rectX = windowWidth
-        rectH = random(100,300)
+        rectH = random(200,150)
         rectY = windowHeight - rectH
     }
     if (rectX == windowWidth/2){
@@ -42,6 +42,10 @@ function setup(){
 function show() {
     ellipse(x, y, diameter)
 }
+this.y += this.velocity;
+this.velocity += this.gravity;
+  
+
 
 function update() {
     velocity += gravity
@@ -61,6 +65,8 @@ function draw() {
     showRect()
     updateRect()
     select('#info').html(score)
+
+         
 }
 
 function keyPressed(key){
