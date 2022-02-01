@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Hina Mincho';
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header{
+    height: 10vh;
+    background: black;
+    display: grid;
+    place-items: center;
+    color: white;
+}
+main{
+    position: relative;
+    height: 90vh;
+}
+h2{
+    text-align: center;
+}
+canvas{
+    position: absolute;
+    bottom:0;
+}
