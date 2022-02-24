@@ -2,16 +2,14 @@ let students = ['bjarke', 'sofus', 'marius', 'viktor', 'mie', 'bjørn', 'andreas
 let balls = []
 
 function setup(){
-    createCanvas(400, 400)
-    background('pink')
+    noCanvas()
     students.map(item =>{
-        let b = new Ball(random(10, 40), random(width), random(height), 'purple ', item)
+        let b = new Ball(random(10, 40), random(window.innerWidth), random(window.innerHeight), 'purple ', item)
         balls.push(b)
     })
 }
     
 function draw() {
-    createCanvas(400, 400)
     background('pink')
     balls.map( item =>{
         item.show()

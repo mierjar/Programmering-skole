@@ -16,6 +16,13 @@ class Ball{
     
     show(){
         this.button.position(this.xpos, this.ypos)
+        this.button.mousePressed(()=>{
+            if (confirm('vil du hoppe med ' + this.name)){
+                this.up()
+            }else{
+                this.radius -= 5
+            }
+        })
         fill(this.col)
         ellipse(this.xpos, this.ypos, this.radius)
         text(this.name, this.xpos, this.ypos + this.radius + 2)
@@ -26,8 +33,8 @@ class Ball{
     this.velocity *= this.friction
         this.ypos += this.velocity
         
-        if(this.ypos > height - this.radius){
-            this.ypos = height - this.radius
+        if(this.ypos > window.innerHeight - this.radius){
+            this.ypos = window.innerHeight - this.radius
             this.velocity = -this.velocity
             
             
