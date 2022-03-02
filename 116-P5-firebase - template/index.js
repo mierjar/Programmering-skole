@@ -1,6 +1,6 @@
-//model
+//model - lokal kopi af databasen
 let model = {}
-//view
+//view - den visning vi har valgt at lave af data  / vores app
 let htmlWords
 //other html elements 
 let saveButton
@@ -11,9 +11,9 @@ function setup(){
 
     //opret reference til andre html elementer 
     saveButton = select('#saveButton')
-    noCanvas()
+    //vi vil ikke have noget p5 canvasCanvas()
     //controller
-    db.collection('my-diary').doc('diary')
+    db.collection('collection name').doc('doc-name')
         .onSnapshot( doc => {
             console.log('Modtog data: ', doc.id)
             console.log('Og data er: ', doc.data())
@@ -22,6 +22,7 @@ function setup(){
             //opdater view
             htmlWords.html(model.words)
             htmlWords.elt.scrollTop = htmlWords.elt.scrollHeight
+            //når der kommer input fra slutbrugeren, opdateres MODELLEN+0   
             htmlWords.input(()=>{
                 //console.log(htmlWords.html())
                 model.words = htmlWords.html()

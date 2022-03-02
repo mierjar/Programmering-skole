@@ -8,15 +8,66 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header>
-
-    </header>
-    <main>
-
-    </main>   
-    <footer>
-
-    </footer> 
+    <body>
+        <div class="backgroundimg">
+        <div class="main3">
+           <div class="panel1">
+              <div id="column centered">
+                 <center>
+                    <textarea spellcheck="false" id="factoryName" class="header" style="text-align:center;resize:none;overflow:hidden;"> Moon Clicker 🖉</textarea>
+                    <div class="mCash">$0</div>
+                    <div class="cookierate">$0.00 per second</div>
+                 </center>
+              </div>
+              <center><span class="buttonCookie" type="button" onclick="clickyBud()"></span></center>
+           </div>
+           <div style="height:100%"class="panel2">
+              <center class="header">Acheivements</center>
+              <br>
+              <marquee style="height: 1000px;" id="alerts" behavior="scroll" direction="up" scrollamount="2">
+                 <a href="https://staydevoooo.github.io" style="color: white;" class="styleAlert">
+                    <center>Credits:<br><br>Made by Mie<br>Inspired by Cookie Clicker!</center>
+                 </a>
+              </marquee>
+           </div>
+           <div class="panel3">
+              <center>
+                 <div id="store" class="header">🛒 Store 🛒</div>
+                 <div id="shop">
+                    <br>
+                    <div id="shopItem">
+                       <div class="workersC shopText">Workers Here</div>
+                       <div class="buttons worker" type="button" onclick="buyWorker()"></div>
+                    </div>
+                    <div id="shopItem">
+                       <div class="astronautsC shopText">Astronauts Here</div>
+                       <div class="buttons astronauts" type="button" onclick="buyAstronaut()"></div>
+                    </div>
+                    <div id="shopItem">
+                       <div class="spacecraftC shopText">Spacecraft Here</div>
+                       <div class="buttons spacecraft" type="button" onclick="buySpacecraft()"></div>
+                    </div>
+                    <div id="shopItem">
+                       <div class="rocketshipC shopText">Rockets Here</div>
+                       <div class="buttons rocketships" type="button" onclick="buyRocket()"></div>
+                       <div id="shopItem">
+                          <div class="spacestationC shopText">Spacestation Here</div>
+                          <div class="buttons spacestation" type="button" onclick="buySpacestation()"></div>
+                       </div>
+                    </div>
+              </center>
+              </div>
+              <br style="clear: left;" />
+           </div>
+        </div>
+        <script defer src="js/jquery-1.12.0.min.js"></script>
+        <script defer src="js/moon-clicker.js"></script>
+        <script defer src="js/audio-engine.js"></script>
+        <script defer src="js/popup.js"></script>
+        <script defer src="audio.json"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.css"/><script src="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.js" defer></script><script>window.addEventListener("load", function(){window.wpcc.init({"corners":"large","colors":{"popup":{"background":"#222222","text":"#ffffff","border":"#e6b3b3"},"button":{"background":"#e6b3b3","text":"#000000"}},"margin":"small","transparency":"25","fontsize":"tiny","content":{"href":"https://www.websitepolicies.com/policies/view/RhruFc8c","message":"Like what you see? Visit my main website for more of my creations!\n"}})});</script>
+        <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/645da18cee9b833590d3e97a7/7d242e8299469965d99ff779c.js");</script>
+     </body> 
     <script src="index.js"></script>
 </body>
 </html>
