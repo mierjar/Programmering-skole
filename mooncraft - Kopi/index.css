@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Hina Mincho';
+}
+
+.info{
+  border-radius: 15px;
+  font-size: xx-large;
+  color: #373737;
+  background-color: solid#8b8b8b;
+  border-top: thick solid#373737;
+  border-left: thick solid#373737;
+  border-right:thick solid#FFFFFF;
+  border-bottom: thick solid #FFFFFF;
+}
+.printer{
+  border-radius: 15px;
+  font-size: xx-large;
+  color: #373737;
+  background-color: solid#8b8b8b;
+  border-top: thick solid#373737;
+  border-left: thick solid#373737;
+  border-right:thick solid#FFFFFF;
+  border-bottom: thick solid #FFFFFF;
+  margin-top: 1rem;
+  margin-left: 11rem;
+  padding: 1px;
+}
+
+body {
+    background-color: #c6c6c6;
+    margin: 10px;
+    color: #404040;
+    display: grid;
+    place-items: center;
+  }
+  
+  #screen {
+    min-width: 450px;
+    overflow: hidden;
+  }
+  
+  H1 {
+    clear: both;
+  }
+  
+  #crafting-table {
+    margin-top: 10px;
+  }
+  
+  
+  #grid {
+    float: left;
+    margin-bottom:16px;
+  }
+  
+  .arrow {
+     float: left;
+    padding: 20px;
+    vertical-align:top;
+    font-size: 64px;
+  }
+  
+  .gridCell {
+    background-color: solid#8b8b8b;
+    border-top: thick solid#373737;
+    border-left: thick solid#373737;
+    border-right:thick solid#FFFFFF;
+    border-bottom: thick solid #FFFFFF;
+    width: 75px;
+    height: 75px;
+    float: left;
+    border-radius: 30%;
+  }
+  #grid .gridCell:nth-child(3n+1){
+    clear:left;
+  }
+  #inventory .gridCell:nth-child(9n+1){
+    clear:left;
+  }
+  
+  .gridCell IMG {
+    padding:2px;
+  }
+  #result {
+    float: left;
+    text-align: center;
+    padding-top:8px;
+    box-sizing: border-box;
+    background-color: #8b8b8b;
+    border-top: thick solid #373737;
+    border-left: thick solid #373737;
+    border-right: thick solid #FFFFFF;
+    border-bottom: thick solid #FFFFFF;
+    width: 300px;
+    height: 300px;
+    border-radius: 30%;
+  }
+button:hover {background-color: #404040}
+
+button:active {
+  background-color: #8b8b8b;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  overflow: hidden
