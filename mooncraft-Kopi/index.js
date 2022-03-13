@@ -40,7 +40,7 @@ function selectCraftTable(cell_ID) {
     craftTableCell.innerHTML="";
     craftTable[cell_ID]=0;
   }
-  craft();
+ 
 }
 
 
