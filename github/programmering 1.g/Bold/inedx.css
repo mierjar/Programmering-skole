@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Hina Mincho';
+    display: grid;
+    place-items: center;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+}
+
+canvas{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
+}
+
+.eclipse {
+    position:relative;
+    animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+}
